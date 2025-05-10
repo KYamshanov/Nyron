@@ -38,6 +38,8 @@ kotlin {
 
         jvmMain.dependencies {
             implementation(compose.desktop.currentOs)
+            implementation("net.java.dev.jna:jna:5.12.1")
+            implementation("net.java.dev.jna:jna-platform:5.12.1")
         }
     }
 }
