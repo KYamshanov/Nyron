@@ -8,5 +8,4 @@ expect fun CustomTextField(
     modifier: Modifier = Modifier,
     value: String,
     onValueChange: (String) -> Unit,
-    language: String = "ru-RU"
 )
